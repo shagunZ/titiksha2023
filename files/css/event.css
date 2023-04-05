@@ -869,11 +869,10 @@ header.sticky_header {
   top: 25%;
   margin-left: 20%;
   height: 100vh;
-  overflow-y: scroll;
 }
 .box {
   height: 60%;
-  /* overflow-y: scroll; */
+  overflow-y: scroll;
   position: fixed;
   gap: 12px;
 }
