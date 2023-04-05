@@ -747,7 +747,7 @@ header.sticky_header {
 .icon_box_one {
   background-color: #f0f2f6;
   padding: 0;
-  margin: 25px 0;
+  border-radius: 8px;
   position: relative;
   overflow: hidden;
   -webkit-box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
@@ -868,11 +868,12 @@ header.sticky_header {
   width: 100%;
   top: 25%;
   margin-left: 20%;
+  height: 100vh;
   overflow-y: scroll;
 }
 .box {
   height: 60%;
-  overflow-y: scroll;
+  /* overflow-y: scroll; */
   position: fixed;
   gap: 12px;
 }
