@@ -24,9 +24,11 @@ body {
   line-height: 25px;
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
-  color: #838383;
+  background-image: linear-gradient(180deg, #000000 0%, #2c2c2c 100%);
+  color: #6f6e6e;
   font-style: normal;
   overflow-x: hidden;
+  
 }
 
 h1,
@@ -44,7 +46,7 @@ h6 {
 h1,
 .h1 {
   font-size: 48px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
 }
 
 h2,
@@ -68,7 +70,7 @@ h4,
 h5,
 .h5 {
   font-size: 22px;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 h6,
@@ -352,7 +354,7 @@ img {
   top: 0;
   bottom: 0;
   width: 100%;
-  background-color: #f7f7f7;
+  background-color: #ffffff;
   z-index: 999999;
 }
 
@@ -1896,7 +1898,7 @@ footer ul.instagram_list li {
   display: inline-block;
   width: 30%;
   margin: 0 0 2% 2%;
-  float: left;
+  float: none;
 }
 
 footer .newsletter_form .form-control {
@@ -2437,7 +2439,7 @@ Cover
 }
 
 .icon_box_one {
-  background-color: #f0f2f6;
+  background-color: #c6c6c9;
   padding: 0;
   margin: 25px 0;
   position: relative;
@@ -2468,7 +2470,7 @@ Cover
 }
 
 .icon_box_one .content h4 {
-  color: #18181c;
+  color: #dbdbe0;
   margin-bottom: 15px;
   text-transform: capitalize;
   -webkit-transition: all 0.4s ease-in-out;
@@ -2869,7 +2871,7 @@ Cover
 }
 
 .table.event_calender tbody {
-  background-color: #f0f2f6;
+  background-color: #d6d2d2;
 }
 
 .table.event_calender tbody td,
@@ -3090,7 +3092,7 @@ Cover
 .widget_tags ul li a {
   display: block;
   padding: 10px 12px;
-  background-color: #f0f2f6;
+  background-color: #e3dfdf;
   color: #838383;
   border: solid 1px #f0f2f6;
   font-size: 12px;
@@ -3111,7 +3113,7 @@ Cover
 -------------------------------------------------------- */
 .contact_box {
   padding: 35px;
-  background-color: #ffffff;
+  background-color: #f5f1f1;
   border-radius: 4px;
 }
 
@@ -3160,7 +3162,7 @@ Cover
   padding: 12px 15px;
   height: 50px;
   border-radius: 1px;
-  background-color: #e2e6f1;
+  background-color: #e8e5e5;
   border: solid 1px #e2e6f1;
   margin-bottom: 25px;
   outline: 0 !important;
@@ -3363,7 +3365,7 @@ textarea.form-control {
 }
 
 .event-gallery-section .grid-item {
-  float: left;
+  float: none;
   display: inline-block;
 }
 
@@ -3391,7 +3393,7 @@ textarea.form-control {
   left: 0px;
   right: 0px;
   bottom: 0px;
-  background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 62, 0, 0.8)), to(rgba(255, 190, 48, 0.8)));
+  /* background: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 62, 0, 0.8)), to(rgba(255, 190, 48, 0.8))); */
   background: -webkit-linear-gradient(top left, rgba(255, 62, 0, 0.8), rgba(255, 190, 48, 0.8));
   background: -o-linear-gradient(top left, rgba(255, 62, 0, 0.8), rgba(255, 190, 48, 0.8));
   background: linear-gradient(to bottom right, rgba(255, 62, 0, 0.8), rgba(255, 190, 48, 0.8));
@@ -3586,7 +3588,7 @@ textarea.form-control {
 .ul-li ul li {
   margin: 0;
   padding: 0;
-  float: left;
+  float: none;
   list-style: none;
   display: inline-block;
 }
@@ -3622,3 +3624,125 @@ textarea.form-control {
 
   background: #555
 }
+
+.col-md-12{
+  display: flex; 
+  width: 50%;
+}
+
+.contact_info{
+  text-align: left; 
+  flex: 1; 
+  padding-right: 100px;
+}
+
+h5{
+  color: #c5c5d7; 
+  font-size: 64px;
+  margin: 0.5px; 
+  margin-top: 100px; 
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+.icon_list .pt50{
+  text-align: left;
+}
+
+li{
+  text-align: left;
+}
+
+i .ion-location{
+  margin: 0px;
+}
+
+p{
+  color: white;  
+  text-align: left;
+}
+
+@media all and (max-width: 767px){
+  .col-md-12{
+  display: inline-block; 
+  width: 100%;
+  padding-left: 60px;
+}
+
+.contact_info{
+  text-align: left; 
+  flex: 1; 
+  padding-right: 40px;
+}
+
+h5{
+  color: #c5c5d7; 
+  font-size: 38px;
+  margin: 0.5px; 
+  margin-top: 100px; 
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 0%;
+}
+.icon_list .pt50{
+  text-align: left;
+}
+
+li{
+  text-align: left;
+}
+
+i .ion-location{
+  margin: 0px;
+}
+
+p{
+  color: white;  
+  text-align: left;
+}
+}
+
+@media all and (min-width:400px) and (max-width: 767px){
+  .col-md-12{
+  display: inline-block; 
+  width: 20%;
+  padding-left: 60px;
+}
+
+.contact_info{
+  text-align: left; 
+  flex: 1; 
+  padding-right: 100px;
+}
+
+h5{
+  color: #c5c5d7; 
+  font-size: 36px;
+  margin: 0.5px; 
+  margin-top: 100px; 
+  margin-left: 0px;
+  margin-right: 0px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 0%;
+}
+.icon_list .pt50{
+  text-align: left;
+}
+
+li{
+  text-align: left;
+}
+
+i .ion-location{
+  margin: 0px;
+}
+
+p{
+  color: white;  
+  text-align: left;
+}
+}
+
+
