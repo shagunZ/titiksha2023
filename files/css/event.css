@@ -57,8 +57,11 @@ h6 {
 
 h1,
 .h1 {
+  padding-top: 0%;
+  margin-top: 20px;
   font-size: 36px;
-  margin-bottom: 25px;
+  margin-bottom: 0px;
+  padding-bottom: 0%;
 }
 
 h2,
@@ -77,6 +80,9 @@ h4,
 .h4 {
   font-size: 24px;
   margin-bottom: 15px;
+  margin-top: 0px;
+  padding-left: 20%;
+  padding-top: 0%;
 }
 
 h5,
@@ -133,7 +139,8 @@ ul.nosyely_list {
 
 .section_title {
   position: relative;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
+  overflow: auto;
 }
 
 .section_title .title {
@@ -153,14 +160,14 @@ ul.nosyely_list {
 .icon_list {
   list-style: none;
   padding: 0;
-  margin: 0;
+  margin: 10px;
 }
 
 .icon_list li {
   display: inline-block;
   width: 100%;
   position: relative;
-  padding-left: 50px;
+  padding-left: 150px;
   min-height: 50px;
   margin-bottom: 7px;
 }
@@ -244,12 +251,12 @@ img {
   max-width: 100%;
 }
 
-@media (max-width: 1199px) {
+@media (width: 1199px) {
 
   h1,
   .h1 {
     font-size: 28px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     font-weight: 700;
   }
 
@@ -268,7 +275,9 @@ img {
   h4,
   .h4 {
     font-size: 16px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
+    padding-top: 0%;
+    padding-left: 50%;
   }
 
   h5,
@@ -307,7 +316,7 @@ img {
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 100%;
+  width: 200%;
   background-color: #f7f7f7;
   z-index: 999999;
 }
@@ -378,6 +387,9 @@ img {
   margin-top: 30px !important;
 }
 
+.event-card1{
+  image-rendering: auto;
+}
 
 /*  ----------------------------------------------------
 2. HEADER
@@ -745,8 +757,9 @@ header.sticky_header {
 }
 
 .icon_box_one {
+  
   background-color: #f0f2f6;
-  padding: 0;
+  padding: 100;
   border-radius: 8px;
   position: relative;
   overflow: hidden;
@@ -754,17 +767,22 @@ header.sticky_header {
   box-shadow: 0 0 0 rgba(0, 0, 0, 0.08);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
-  max-width: 336px;
+  max-width: 536px;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  
 }
 
-.icon_box_one i {
-  margin-top: 12px;
-  padding: 0 15px;
+.icon_box_one i{
+  margin-top: 2px;
+  padding: 10 5px;
   font-size: 72px;
+  text-align: left;
   color: #f50136;
   border-radius: 4px;
   display: block;
-  margin-bottom: 15px;
+  margin-bottom: 5px;
   line-height: 1;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -831,7 +849,7 @@ header.sticky_header {
 
 .icon_box_two {
   position: relative;
-  padding: 0;
+  padding-bottom: 100;
   margin: 25px 0;
 }
 
@@ -866,25 +884,25 @@ header.sticky_header {
 .mainbox {
   position: absolute;
   width: 100%;
-  top: 25%;
+  top: 18%;
   margin-left: 20%;
   height: 100vh;
 }
 .box {
   height: 60%;
-  overflow-y: scroll;
+  overflow-y: auto;
   position: fixed;
   gap: 12px;
 }
 .event-card{
-  width: 300px;
+  width: 200px;
 }
 
 @media screen and (max-width:1249px) {
   .box {
     height: 60%;
     width: 100%;
-    overflow-y: scroll;
+    overflow-y: auto;
     position: fixed;
   }
 
@@ -930,3 +948,203 @@ header.sticky_header {
 
   background: #555
 }
+
+.section_title h1{
+  padding-top: 20px; 
+  padding-right: 50%;
+}
+
+.row .justify-content-center .box{
+  padding-right: 2%; 
+  padding-left: -3%; 
+  padding-top: 1%;
+}
+
+.event-card1{
+  padding: 0px; 
+  padding-left: 0%; 
+  padding-right: 0%;
+}
+
+.icon_box_one{
+  width: 500px; 
+  padding-top: 8px;
+}
+
+.h4{
+  padding-top: 0%; 
+  margin: 0%; 
+  font-size: 28px; 
+  text-align: left;
+}
+
+.content p{
+  margin-top: 3%; 
+  text-align: left; 
+  margin-bottom: 2%;
+
+}
+.content a{
+  margin-top:2%;
+}
+.event-card2{
+  padding: 0px 0px;
+}
+
+.event-card1 img{
+  height: 36px; 
+  width: 50px; 
+  float: left; 
+  margin-right: 20px; 
+  margin-left: 27px;
+  margin-top: 2px;
+  padding-top: 8px;
+}
+
+.event-card2 img{
+  height: 40px; 
+  width: 50px; 
+  float: left; 
+  margin-right: 20px; 
+  margin-left: 27px;
+  margin-top: 2px;
+}
+
+@media all and (max-width: 767px){
+  body{
+    margin-left: 2px;
+    margin-right: 25px;
+  }
+  .section_title h1{
+  padding-top: 20px; 
+  padding-right: 50%;
+  font-size: 30px;
+}
+
+.row .justify-content-center .box{
+  padding-right: 2%; 
+  padding-left: -3%; 
+  padding-top: 1%;
+}
+
+.event-card1{
+  padding: 0px; 
+  padding-left: 0%; 
+  padding-right: 0%;
+}
+
+.icon_box_one{
+  width: 350px; 
+  padding-top: 8px;
+}
+
+.h4{
+  padding-top: 0%; 
+  margin: 0%; 
+  font-size: 28px; 
+  text-align: left;
+}
+
+.content p{
+  margin-top: 3%; 
+  text-align: left; 
+  margin-bottom: 2%;
+
+}
+.content a{
+  margin-top:2%;
+}
+.event-card2{
+  padding: 0px 0px;
+}
+
+.event-card1 img{
+  height: 36px; 
+  width: 50px; 
+  float: left; 
+  margin-right: 20px; 
+  margin-left: 27px;
+  margin-top: 2px;
+  padding-top: 8px;
+}
+
+.event-card2 img{
+  height: 40px; 
+  width: 50px; 
+  float: left; 
+  margin-right: 20px; 
+  margin-left: 27px;
+  margin-top: 2px;
+}
+}
+
+@media all and (min-width: 467px) and (max-width:767px){
+  body{
+    margin-left: 0px;
+    margin-right: 0.5px;
+  }
+  .section_title h1{
+  padding-top: 20px; 
+  padding-right: 50%;
+  font-size: 30px;
+}
+
+.row .justify-content-center .box{
+  padding-right: 2%; 
+  padding-left: -3%; 
+  padding-top: 1%;
+}
+
+.event-card1{
+  padding: 0px; 
+  padding-left: 0%; 
+  padding-right: 0%;
+}
+
+.icon_box_one{
+  width: 25%; 
+  padding-top: 8px;
+}
+
+.h4{
+  padding-top: 0%; 
+  margin: 0%; 
+  font-size: 28px; 
+  text-align: left;
+}
+
+.content p{
+  margin-top: 3%; 
+  text-align: left; 
+  margin-bottom: 2%;
+
+}
+.content a{
+  margin-top:2%;
+}
+.event-card2{
+  padding: 0px 0px;
+}
+
+.event-card1 img{
+  height: 36px; 
+  width: 50px; 
+  float: left; 
+  margin-right: 20px; 
+  margin-left: 27px;
+  margin-top: 2px;
+  padding-top: 8px;
+}
+
+.event-card2 img{
+  height: 40px; 
+  width: 50px; 
+  float: left; 
+  margin-right: 20px; 
+  margin-left: 27px;
+  margin-top: 2px;
+}
+}
+
+
+

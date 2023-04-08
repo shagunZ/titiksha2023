@@ -34,8 +34,8 @@ body {
   -webkit-text-size-adjust: 100%;
   color: #7A7C80;
   min-height: 100%;
-  /* overflow: hidden; */
-  overflow-y: scroll;
+  overflow: hidden;
+  /* overflow-y: scroll; */
 }
 
 h1,
