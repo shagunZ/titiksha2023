@@ -74,7 +74,7 @@ html {
 .company-heading h1 {
   margin-bottom: 40px;
   line-height: 80px;
-  color: #fff;
+  color: #c5c5d7;
   font-weight: 700 !important;
   text-align: center;
 }
@@ -84,9 +84,8 @@ html {
 .intro-type .container h1.white,
 .company-heading h1 {
   font-family: 'montserrat', sans-serif;
-  font-weight: 100 !important;
+  font-weight: 700 !important;
   text-transform: capitalize;
-  font-size: 65px;
   margin-bottom: 20px;
 }
 
@@ -563,6 +562,10 @@ header.sticky_header {
   box-shadow: 0 0 0 !important;
   cursor: pointer;
   border-radius: 2px;
+}
+.about-heading{
+  margin-top:60px;
+  font-weight:700;
 }
 
 @media (min-width: 767px) {
