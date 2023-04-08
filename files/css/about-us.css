@@ -18,6 +18,24 @@ html {
   font-family: 'montserrat';
 }
 
+.btn-transparent {
+  
+  color:rgb(156, 19, 163) ;
+  font-weight: bold;
+}
+
+.btn-transparent:hover {
+  background:rgb(156, 19, 163);
+  font-weight: bold;
+  color:white;
+  cursor: pointer;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+
+  font-size: 1.1em;
+}
+
 .separator-type,
 .title-type,
 .intro-type,
@@ -258,7 +276,7 @@ body {
 
 .btn-solodev-red-reversed {
   background-color: #fff;
-  color: #d2282e;
+  color:rgb(156, 19, 163) ;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
   padding: 12px 35px;
