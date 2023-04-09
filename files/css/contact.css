@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
 @font-face {
   font-family: 'Montserrat';
   font-display: swap;
@@ -3638,11 +3640,11 @@ textarea.form-control {
 
 h5{
   color: #c5c5d7; 
-  font-size: 64px;
+  font-size: 50px;
   margin: 0.5px; 
   margin-top: 100px; 
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Saira Stencil One', cursive;
 }
 .icon_list .pt50{
   text-align: left;
@@ -3682,7 +3684,7 @@ h5{
   margin-left: 0px;
   margin-right: 0px;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Saira Stencil One', cursive;
   padding-left: 0%;
 }
 .icon_list .pt50{
@@ -3727,7 +3729,7 @@ h5{
   margin-left: 0px;
   margin-right: 0px;
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Saira Stencil One', cursive;
   padding-left: 0%;
 }
 .icon_list .pt50{
