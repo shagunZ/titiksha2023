@@ -45,7 +45,7 @@ body {
 }
 
 .btn-transparent:hover {
-  background:rgb(156, 19, 163);
+  background:#a40427;
   cursor: pointer;
 }
 
@@ -64,7 +64,7 @@ img {
 .card-img-top:hover{
   transform: scale(1.1);
   cursor: pointer;
-  border:1px solid rgb(156, 19, 163);
+  border:1px solid rgb(163, 19, 57);
 }
 .highlight{
   font-weight: 700;
@@ -533,7 +533,7 @@ main {
   max-width: 100%;
 }
 
-.popupClose {
+/* .popupClose {
   position: absolute;
   right: 0.5rem;
   top: 0.5rem;
@@ -541,7 +541,7 @@ main {
   font-size: 2rem;
   cursor: pointer;
   z-index: 999999;
-}
+} */
 
 .popupCnt {
   padding: 2rem;
