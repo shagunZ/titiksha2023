@@ -81,7 +81,7 @@ h5{
 
 #product-header-section,
 .intro-type .container {
-  padding: 58px 15px 72px !important;
+  padding: 38px 15px 72px !important;
 }
 
 .somati {
@@ -111,7 +111,7 @@ h5{
   font-weight: 700 !important;
   text-align: center;
   position:relative;
-  top:55px;
+  top:40px;
 }
 
 .seo-header,
@@ -602,6 +602,14 @@ header.sticky_header {
 .about-heading{
   margin-top:60px;
   font-weight:700;
+  letter-spacing: 1px;
+}
+
+.about-img-1{
+  margin-top: 40px;
+}
+.about-img-2{
+  margin-top: 50px;
 }
 
 @media (min-width: 767px) {
@@ -665,7 +673,14 @@ header.sticky_header {
   }
   .intro-type .container {
     padding: 18px 15px 72px !important;
-}
+  }
+  .about-img-1 {
+      margin-top: 0px;
+  }
+  .about-img-2{
+    margin-top: 0px;
+  }
+
 }
 
 @media screen and (max-width:450px) {
@@ -674,6 +689,12 @@ header.sticky_header {
   }
   .intro-type .container {
     padding: 18px 15px 72px !important;
+}
+.about-img-1 {
+  margin-top: 0px;
+}
+.about-img-2{
+  margin-top: 0px;
 }
 }
 
@@ -710,10 +731,4 @@ header.sticky_header {
 ::-webkit-scrollbar-thumb:hover {
 
   background: #555
-}
-.about-img-1{
-  margin-top: 70px;
-}
-.about-img-2{
-  margin-top: 50px;
 }

@@ -100,12 +100,13 @@ body {
 #team {
   min-height: 100vh;
   padding: 60px 0;
-  background: -webkit-gradient(linear, left bottom, right top, from(#29323c), to(#485563));
-  background: -webkit-linear-gradient(bottom left, #29323c 0%, #485563 100%);
-  background: -moz-linear-gradient(bottom left, #29323c 0%, #485563 100%);
-  background: -o-linear-gradient(bottom left, #29323c 0%, #485563 100%);
-  background: linear-gradient(to top right, #29323c 0%, #485563 100%);
+  /* background: -webkit-gradient(linear, left bottom, right top, from(#29323c), to(#485563)); */
+  /* background: -webkit-linear-gradient(bottom left, #29323c 0%, #485563 100%); */
+  /* background: -moz-linear-gradient(bottom left, #29323c 0%, #485563 100%); */
+  /* background: -o-linear-gradient(bottom left, #29323c 0%, #485563 100%); */
+  /* background: linear-gradient(to top right, #29323c 0%, #485563 100%); */
   text-align: center;
+  background: linear-gradient(180deg, #000000 0%, #2c2c2c 100%);
 }
 
 #team p {
@@ -122,9 +123,12 @@ body {
   background-clip: text;
   -webkit-text-fill-color: transparent;
   padding: 0 0 5px;
-  font-family: 'norwester';
+  font-family: "Montserrat", sans-serif;
   font-size: 40px;
   text-transform: uppercase;
+  margin-top: 20px;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 
 
@@ -299,8 +303,7 @@ body {
 2. HEADER
 -------------------------------------------------------- */
 header {
-  background: linear-gradient(90deg, #39434f 0%, #465461 100%);
-  ;
+  background-color: #18181c;
   top: 0;
   min-height: 50px;
   padding: 0;
