@@ -81,7 +81,7 @@ h5{
 
 #product-header-section,
 .intro-type .container {
-  padding: 68px 15px 72px !important;
+  padding: 58px 15px 72px !important;
 }
 
 .somati {
@@ -710,4 +710,10 @@ header.sticky_header {
 ::-webkit-scrollbar-thumb:hover {
 
   background: #555
+}
+.about-img-1{
+  margin-top: 70px;
+}
+.about-img-2{
+  margin-top: 50px;
 }
