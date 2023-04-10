@@ -836,6 +836,7 @@ footer .newsletter_form .form-control {
 }
 
 .copyright_footer ul.footer_menu li a {
+  font-size: 13px;
   padding: 10px;
   text-transform: capitalize;
   color: #838383;
